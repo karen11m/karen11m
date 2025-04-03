@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras - THE HOUSE OF DETAILS</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caudex:wght@700&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="search-box">
+                <input type="text" placeholder="Buscar productos...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <h1>THE HOUSE OF DETAILS</h1>
+            <div class="header-icons">
+                <a href="https://wa.me/573001234567" class="whatsapp-btn" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="carrito.html" class="cart-btn active"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Catálogo</a></li>
+                <li><a href="about.html">Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="cart-container">
+        <h2>Tu Carrito de Compras</h2>
+        
+        <div class="cart-content">
+            <div class="cart-items">
+                <div class="cart-item">
+                    <img src="images/ancheta-chocolate-small.jpg" alt="Ancheta de Chocolate Premium">
+                    <div class="item-details">
+                        <h3>Ancheta de Chocolate Premium</h3>
+                        <p class="item-price">$89,900</p>
+                        <div class="item-options">
+                            <p>Personalización: "Feliz Aniversario"</p>
+                            <p>Color cinta: Rojo</p>
+                        </div>
+                        <div class="item-actions">
+                            <div class="quantity-selector">
+                                <button class="quantity-btn">-</button>
+                                <input type="number" value="1" min="1" class="quantity-input">
+                                <button class="quantity-btn">+</button>
+                            </div>
+                            <button class="remove-btn">Eliminar</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cart-item">
+                    <img src="images/ramo-rosas-small.jpg" alt="Ramo de Rosas Eternas">
+                    <div class="item-details">
+                        <h3>Ramo de Rosas Eternas</h3>
+                        <p class="item-price">$120,000</p>
+                        <div class="item-options">
+                            <p>Color rosas: Rojas</p>
+                            <p>Caja: Madera natural</p>
+                        </div>
+                        <div class="item-actions">
+                            <div class="quantity-selector">
+                                <button class="quantity-btn">-</button>
+                                <input type="number" value="1" min="1" class="quantity-input">
+                                <button class="quantity-btn">+</button>
+                            </div>
+                            <button class="remove-btn">Eliminar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cart-summary">
+                <h3>Resumen de Compra</h3>
+                <div class="summary-details">
+                    <div class="summary-row">
+                        <span>Subtotal:</span>
+                        <span>$209,900</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Envío:</span>
+                        <span>$8,000</span>
+                    </div>
+                    <div class="summary-row total">
+                        <span>Total:</span>
+                        <span>$217,900</span>
+                    </div>
+                </div>
+                
+                <div class="delivery-options">
+                    <h4>Opciones de Entrega</h4>
+                    <div class="option">
+                        <input type="radio" id="delivery-standard" name="delivery" checked>
+                        <label for="delivery-standard">Envío estándar (1-2 días hábiles) - $8,000</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="delivery-express" name="delivery">
+                        <label for="delivery-express">Envío express (mismo día) - $15,000</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="delivery-pickup" name="delivery">
+                        <label for="delivery-pickup">Recoger en tienda - Gratis</label>
+                    </div>
+                </div>
+                
+                <a href="#checkout-form" class="btn checkout-btn">Proceder al Pago</a>
+            </div>
+        </div>
+        
+        <form id="checkout-form" class="checkout-form">
+            <h3>Información de Contacto</h3>
+            <div class="form-group">
+                <label for="fullname">Nombre Completo *</label>
+                <input type="text" id="fullname" required>
+            </div>
+            <div class="form-group">
+                <label for="id">Cédula de Ciudadanía *</label>
+                <input type="text" id="id" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Número de Contacto *</label>
+                <input type="tel" id="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Correo Electrónico *</label>
+                <input type="email" id="email" required>
+            </div>
+            
+            <h3>Información de Entrega</h3>
+            <div class="form-group">
+                <label for="address">Dirección *</label>
+                <input type="text" id="address" required>
+            </div>
+            <div class="form-group">
+                <label for="city">Ciudad *</label>
+                <input type="text" id="city" required>
+            </div>
+            <div class="form-group">
+                <label for="neighborhood">Barrio *</label>
+                <input type="text" id="neighborhood" required>
+            </div>
+            <div class="form-group">
+                <label for="delivery-date">Fecha de Entrega *</label>
+                <input type="date" id="delivery-date" required>
+            </div>
+            <div class="form-group">
+                <label for="delivery-time">Horario de Entrega *</label>
+                <select id="delivery-time" required>
+                    <option value="">Seleccione un horario</option>
+                    <option value="9-12">9:00 AM - 12:00 PM</option>
+                    <option value="12-3">12:00 PM - 3:00 PM</option>
+                    <option value="3-6">3:00 PM - 6:00 PM</option>
+                    <option value="6-9">6:00 PM - 9:00 PM</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="delivery-notes">Instrucciones especiales para la entrega</label>
+                <textarea id="delivery-notes"></textarea>
+            </div>
+            
+            <h3>Método de Pago</h3>
+            <div class="payment-methods">
+                <div class="payment-option">
+                    <input type="radio" id="payment-cash" name="payment" checked>
+                    <label for="payment-cash"><i class="fas fa-money-bill-wave"></i> Efectivo</label>
+                </div>
+                <div class="payment-option">
+                    <input type="radio" id="payment-nequi" name="payment">
+                    <label for="payment-nequi"><i class="fas fa-mobile-alt"></i> Nequi</label>
+                </div>
+                <div class="payment-option">
+                    <input type="radio" id="payment-daviplata" name="payment">
+                    <label for="payment-daviplata"><i class="fas fa-mobile-alt"></i> Daviplata</label>
+                </div>
+                <div class="payment-option">
+                    <input type="radio" id="payment-debit" name="payment">
+                    <label for="payment-debit"><i class="fas fa-credit-card"></i> Tarjeta Débito</label>
+                </div>
+                <div class="payment-option">
+                    <input type="radio" id="payment-credit" name="payment">
+                    <label for="payment-credit"><i class="fas fa-credit-card"></i> Tarjeta Crédito</label>
+                </div>
+            </div>
+            
+            <div class="form-actions">
+                <button type="submit" class="btn">Confirmar Compra</button>
+                <a href="productos.html" class="btn continue-btn">Seguir Comprando</a>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section contact-info">
+                <h3>Contacto</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Av.68 - Calle 22, Bogotá</p>
+                <p><i class="fas fa-phone"></i> +57 300 1234567</p>
+                <p><i class="fas fa-envelope"></i> info@thehouseofdetails.com</p>
+            </div>
+            
+            <div class="footer-section hours">
+                <h3>Horario</h3>
+                <p>Lunes a Viernes: 9am - 7pm</p>
+                <p>Sábados: 10am - 5pm</p>
+                <p>Domingos: Cerrado</p>
+            </div>
+            
+            <div class="footer-section social">
+                <h3>Redes Sociales</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/573001234567"><i class="fab fa-whatsapp"></i></a>
+                </div>
+                <h3>Métodos de Pago</h3>
+                <div class="payment-methods">
+                    <i class="fas fa-money-bill-wave" title="Efectivo"></i>
+                    <i class="fas fa-credit-card" title="Tarjetas"></i>
+                    <i class="fas fa-mobile-alt" title="Nequi/Daviplata"></i>
+                </div>
+            </div>
+            
+            <div class="footer-section map-container">
+                <h3>Ubicación</h3>
+                <div class="map-wrapper">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.785931816485!2d-74.0839096847346!3d4.638242996636828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a3b0c1b3b1f%3A0x1b8c3b0c1b3b1f!2sBogot%C3%A1!5e0!3m2!1ses!2sco!4v1620000000000!5m2!1ses!2sco" 
+                            width="100%" 
+                            height="300" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy"
+                            title="Ubicación de THE HOUSE OF DETAILS">
+                    </iframe>
+                    <div class="location-details">
+                        <p><i class="fas fa-store"></i> <strong>C.C. Gran Estación</strong> - Calle 22, Bogotá</p>
+                        <p><i class="fas fa-subway"></i> Estación de Transmilenio: Gran Estación</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 THE HOUSE OF DETAILS. Todos los derechos reservados.</p>
+            <p class="map-credits">Datos del mapa &copy;2025 Google - Términos</p>
+        </div>
+    </footer>
+</body>
+</html>

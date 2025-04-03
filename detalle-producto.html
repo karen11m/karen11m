@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle Producto - THE HOUSE OF DETAILS</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caudex:wght@700&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="search-box">
+                <input type="text" placeholder="Buscar productos...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <h1>THE HOUSE OF DETAILS</h1>
+            <div class="header-icons">
+                <a href="https://wa.me/573001234567" class="whatsapp-btn" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="carrito.html" class="cart-btn"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Catálogo</a></li>
+                <li><a href="about.html">Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="product-detail-container">
+        <div class="product-images">
+            <div class="main-image">
+                <img src="./deatalles armonia/Ancheta bomba 70000.jpg" alt=" " id="mainProductImage">
+            </div>
+            <div class="thumbnail-container">
+                <img src="./deatalles armonia/08a2c51607e4ff2adc19d448a141bb98.jpg" alt="Vista 1" class="thumbnail">
+                <img src="./deatalles armonia/OI.jpg" alt="Vista 2" class="thumbnail">
+                <img src="./deatalles armonia/OIP (1).jpg" alt="Vista 3" class="thumbnail">
+                <img src="./deatalles armonia/f11b80e151dbc8cf396c3e350428faf4.jpg" alt="Vista 4" class="thumbnail">
+            </div>
+        </div>
+
+        <div class="product-info">
+            <h2>Ancheta de Chocolate Premium</h2>
+            <div class="rating">
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">☆</span>
+                <span class="review-count">(24 reseñas)</span>
+            </div>
+            <p class="price">$89,900</p>
+            <p class="description">Exquisita selección de chocolates finos importados y nacionales, perfecta para sorprender a ese ser especial. Incluye una variedad de sabores y texturas que deleitarán hasta al paladar más exigente.</p>
+            
+            <div class="product-details">
+                <h3>Contenido:</h3>
+                <ul>
+                    <li>6 chocolates belgas rellenos</li>
+                    <li>4 barras de chocolate artesanal</li>
+                    <li>2 trufas de chocolate oscuro</li>
+                    <li>2 bombones de chocolate con leche</li>
+                    <li>1 frasco de salsa de chocolate</li>
+                    <li>1 tarjeta de felicitación personalizada</li>
+                </ul>
+            </div>
+
+            <div class="product-options">
+                <h3>Opciones:</h3>
+                <div class="option-group">
+                    <label for="personalization">Personalización:</label>
+                    <input type="text" id="personalization" placeholder="Escribe tu mensaje (máx. 50 caracteres)">
+                </div>
+                <div class="option-group">
+                    <label for="ribbon-color">Color de la cinta:</label>
+                    <select id="ribbon-color">
+                        <option value="rojo">Rojo</option>
+                        <option value="azul">Azul</option>
+                        <option value="rosa">Rosa</option>
+                        <option value="dorado">Dorado</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="add-to-cart">
+                <div class="quantity-selector">
+                    <button class="quantity-btn">-</button>
+                    <input type="number" value="1" min="1" class="quantity-input">
+                    <button class="quantity-btn">+</button>
+                </div>
+                <a href="carrito.html" class="btn">Añadir al carrito</a>
+            </div>
+
+            <div class="delivery-info">
+                <p><i class="fas fa-truck"></i> Envío estándar: $8,000 - Entrega en 1-2 días hábiles</p>
+                <p><i class="fas fa-gift"></i> Empaque para regalo incluido</p>
+                <p><i class="fas fa-undo"></i> Devoluciones fáciles dentro de los 7 días</p>
+            </div>
+        </div>
+    </main>
+
+    <section class="related-products">
+        <h2>Productos Relacionados</h2>
+        <div class="related-grid">
+            <div class="related-card">
+                <img src="./deatalles armonia/Ancheta Desayuno-globo 110000.jpg" alt="Ancheta Gourmet">
+                <h3>Ancheta Gourmet</h3>
+                <p class="price">$110,000</p>
+                <a href="detalle-producto.html" class="btn">Ver</a>
+            </div>
+            <div class="related-card">
+                <img src="./deatalles armonia/caja magica  70000.jpg" alt="Caja de Chocolate">
+                <h3>Caja de Chocolate</h3>
+                <p class="price">$70,000</p>
+                <a href="detalle-producto.html" class="btn">Ver</a>
+            </div>
+            <div class="related-card">
+                <img src="./deatalles armonia/descargar.jpg" alt="Desayuno Romántico">
+                <h3>Desayuno Romántico</h3>
+                <p class="price">$85,000</p>
+                <a href="detalle-producto.html" class="btn">Ver</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="customer-reviews">
+        <h2>Opiniones de Clientes</h2>
+        <div class="review-card">
+            <div class="review-header">
+                <div class="review-rating">
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                </div>
+                <p class="review-author">María G. - 15/03/2025</p>
+            </div>
+            <p class="review-text">"La ancheta llegó perfectamente empacada y los chocolates eran deliciosos. Mi esposo quedó encantado con el detalle. Definitivamente volveré a comprar."</p>
+        </div>
+        
+        <div class="review-card">
+            <div class="review-header">
+                <div class="review-rating">
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">☆</span>
+                </div>
+                <p class="review-author">Carlos P. - 02/03/2025</p>
+            </div>
+            <p class="review-text">"Muy buena calidad de chocolates, aunque esperaba que la caja fuera un poco más grande. En general, buen producto y excelente servicio."</p>
+        </div>
+        
+        <div class="add-review">
+            <h3>Deja tu opinión</h3>
+            <form>
+                <div class="rating-input">
+                    <span class="star">☆</span>
+                    <span class="star">☆</span>
+                    <span class="star">☆</span>
+                    <span class="star">☆</span>
+                    <span class="star">☆</span>
+                </div>
+                <textarea placeholder="Escribe tu reseña..."></textarea>
+                <button type="submit" class="btn">Enviar reseña</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section contact-info">
+                <h3>Contacto</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Av.68 - Calle 22, Bogotá</p>
+                <p><i class="fas fa-phone"></i> +57 300 1234567</p>
+                <p><i class="fas fa-envelope"></i> info@thehouseofdetails.com</p>
+            </div>
+            
+            <div class="footer-section hours">
+                <h3>Horario</h3>
+                <p>Lunes a Viernes: 9am - 7pm</p>
+                <p>Sábados: 10am - 5pm</p>
+                <p>Domingos: Cerrado</p>
+            </div>
+            
+            <div class="footer-section social">
+                <h3>Redes Sociales</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/573001234567"><i class="fab fa-whatsapp"></i></a>
+                </div>
+                <h3>Métodos de Pago</h3>
+                <div class="payment-methods">
+                    <i class="fas fa-money-bill-wave" title="Efectivo"></i>
+                    <i class="fas fa-credit-card" title="Tarjetas"></i>
+                    <i class="fas fa-mobile-alt" title="Nequi/Daviplata"></i>
+                </div>
+            </div>
+            
+            <div class="footer-section map-container">
+                <h3>Ubicación</h3>
+                <div class="map-wrapper">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.785931816485!2d-74.0839096847346!3d4.638242996636828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a3b0c1b3b1f%3A0x1b8c3b0c1b3b1f!2sBogot%C3%A1!5e0!3m2!1ses!2sco!4v1620000000000!5m2!1ses!2sco" 
+                            width="100%" 
+                            height="300" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy"
+                            title="Ubicación de THE HOUSE OF DETAILS">
+                    </iframe>
+                    <div class="location-details">
+                        <p><i class="fas fa-store"></i> <strong>C.C. Gran Estación</strong> - Calle 22, Bogotá</p>
+                        <p><i class="fas fa-subway"></i> Estación de Transmilenio: Gran Estación</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 THE HOUSE OF DETAILS. Todos los derechos reservados.</p>
+            <p class="map-credits">Datos del mapa &copy;2025 Google - Términos</p>
+        </div>
+    </footer>
+</body>
+</html>

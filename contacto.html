@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - THE HOUSE OF DETAILS</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caudex:wght@700&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="search-box">
+                <input type="text" placeholder="Buscar productos...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <h1>THE HOUSE OF DETAILS</h1>
+            <div class="header-icons">
+                <a href="https://wa.me/573001234567" class="whatsapp-btn" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="carrito.html" class="cart-btn"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Catálogo</a></li>
+                <li><a href="about.html">Nosotros</a></li>
+                <li><a href="contacto.html" class="active">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contact-container">
+        <section class="contact-info">
+            <h2>Contáctanos</h2>
+            <div class="info-grid">
+                <div class="info-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Dirección</h3>
+                    <p>Calle 123 #45-67, Bogotá, Colombia</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-phone"></i>
+                    <h3>Teléfonos</h3>
+                    <p>+57 300 1234567</p>
+                    <p>+57 1 2345678</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Correo Electrónico</h3>
+                    <p>info@thehouseofdetails.com</p>
+                    <p>ventas@thehouseofdetails.com</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Horario de Atención</h3>
+                    <p>Lunes a Viernes: 9am - 7pm</p>
+                    <p>Sábados: 10am - 5pm</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq-section">
+            <h2>Preguntas Frecuentes</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <input type="checkbox" id="faq1" class="faq-toggle">
+                    <label for="faq1" class="faq-question">
+                        <span>¿Cuáles son los métodos de pago aceptados?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </label>
+                    <div class="faq-answer">
+                        <p>Aceptamos los siguientes métodos de pago: Efectivo, transferencias bancarias, Nequi, Daviplata, tarjetas débito y crédito (Visa y Mastercard).</p>
+                    </div>
+                </div>
+        
+                <div class="faq-item">
+                    <input type="checkbox" id="faq2" class="faq-toggle">
+                    <label for="faq2" class="faq-question">
+                        <span>¿Cuál es el tiempo de entrega?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </label>
+                    <div class="faq-answer">
+                        <p>El tiempo de entrega estándar es de 1 a 2 días hábiles para Bogotá. Para otras ciudades depende del transportador seleccionado.</p>
+                    </div>
+                </div>
+        
+                <div class="faq-item">
+                    <input type="checkbox" id="faq3" class="faq-toggle">
+                    <label for="faq3" class="faq-question">
+                        <span>¿Hacen envíos a otras ciudades?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </label>
+                    <div class="faq-answer">
+                        <p>Sí, realizamos envíos a nivel nacional a través de diferentes transportadoras. El costo varía según la ciudad y el peso del paquete.</p>
+                    </div>
+                </div>
+        
+                <div class="faq-item">
+                    <input type="checkbox" id="faq4" class="faq-toggle">
+                    <label for="faq4" class="faq-question">
+                        <span>¿Puedo personalizar mi pedido?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </label>
+                    <div class="faq-answer">
+                        <p>¡Claro que sí! La mayoría de nuestros productos pueden personalizarse con mensajes, colores y otros detalles. Indícanos tus preferencias al hacer el pedido.</p>
+                    </div>
+                </div>
+        
+                <div class="faq-item">
+                    <input type="checkbox" id="faq5" class="faq-toggle">
+                    <label for="faq5" class="faq-question">
+                        <span>¿Qué pasa si no estoy en la dirección al momento de la entrega?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </label>
+                    <div class="faq-answer">
+                        <p>Si no hay quien reciba el pedido, nuestro mensajero dejará una notificación y hará un segundo intento de entrega al día siguiente.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-form-section">
+            <h2>Envíanos un Mensaje</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="contact-name">Nombre Completo *</label>
+                    <input type="text" id="contact-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="contact-email">Correo Electrónico *</label>
+                    <input type="email" id="contact-email" required>
+                </div>
+                <div class="form-group">
+                    <label for="contact-phone">Teléfono</label>
+                    <input type="tel" id="contact-phone">
+                </div>
+                <div class="form-group">
+                    <label for="contact-subject">Asunto *</label>
+                    <select id="contact-subject" required>
+                        <option value="">Seleccione un asunto</option>
+                        <option value="consulta">Consulta general</option>
+                        <option value="pedido">Seguimiento de pedido</option>
+                        <option value="devolucion">Devolución o reclamo</option>
+                        <option value="sugerencia">Sugerencia</option>
+                        <option value="otros">Otros</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="contact-message">Mensaje *</label>
+                    <textarea id="contact-message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Enviar Mensaje</button>
+            </form>
+        </section> 
+
+        
+
+        <section class="location-map">
+            <h2>Nuestra Ubicación</h2>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.785931816485!2d-74.0839096847346!3d4.638242996636828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a3b0c1b3b1f%3A0x1b8c3b0c1b3b1f!2sBogot%C3%A1!5e0!3m2!1ses!2sco!4v1620000000000!5m2!1ses!2sco" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+            
+    </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section contact-info">
+                <h3>Contacto</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Av.68 - Calle 22, Bogotá</p>
+                <p><i class="fas fa-phone"></i> +57 300 1234567</p>
+                <p><i class="fas fa-envelope"></i> info@thehouseofdetails.com</p>
+            </div>
+            
+            <div class="footer-section hours">
+                <h3>Horario</h3>
+                <p>Lunes a Viernes: 9am - 7pm</p>
+                <p>Sábados: 10am - 5pm</p>
+                <p>Domingos: Cerrado</p>
+            </div>
+            
+            <div class="footer-section social">
+                <h3>Redes Sociales</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/573001234567"><i class="fab fa-whatsapp"></i></a>
+                </div>
+                <h3>Métodos de Pago</h3>
+                <div class="payment-methods">
+                    <i class="fas fa-money-bill-wave" title="Efectivo"></i>
+                    <i class="fas fa-credit-card" title="Tarjetas"></i>
+                    <i class="fas fa-mobile-alt" title="Nequi/Daviplata"></i>
+                </div>
+            </div>
+            
+            <div class="footer-section map-container">
+                
+                
+                    <div class="location-details">
+                        <p><i class="fas fa-store"></i> <strong>C.C. Gran Estación</strong> - Calle 22, Bogotá</p>
+                        <p><i class="fas fa-subway"></i> Estación de Transmilenio: Gran Estación</p>
+                    </div>
+                
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 THE HOUSE OF DETAILS. Todos los derechos reservados.</p>
+            <p class="map-credits">Datos del mapa &copy;2025 Google - Términos</p>
+        </div>
+    </footer>
+</body>
+</html>
