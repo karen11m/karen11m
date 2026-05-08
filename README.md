@@ -10,13 +10,9 @@
 
 ## 🌸 About Me
 
-<div align="center">
-
-<table>
-<tr>
-<td width="40%">
-
-<img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="220"/>
+ Desarrolladora  
+ Experiencia en desarrollo **Frontend**, **Backend**, automatización de pruebas (**QA**) y despliegues (**DevOps**).  
+ Siempre aprendiendo nuevas tecnologías y construyendo proyectos que combinan diseño, rendimiento y automatización.
 
 
 ---
