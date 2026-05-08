@@ -1,16 +1,8 @@
-# <div align="center">✨ Karen Méndez ✨</div>
+# <div align="center"> Karen Tatiana Méndez Bojacá </div>
 
 <div align="center">
 
 <img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="220"/>
-
-<br/>
-
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaW9kMGJ2d3R6aDVvMXNkbzh4a3g1eGg5d3lyNmJ5eXN0aG1xY2t5YiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0HlNaQ6gWfllcjDO/giphy.gif" width="180"/>
-
-<br/>
-
-[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31xxxxxxxxxxxx&cover_image=true&theme=novatorem&show_offline=true&background_color=121212&interchange=false)](https://spotify-github-profile.kittinanx.com/api/view?uid=31xxxxxxxxxxxx&redirect=true)
 
 </div>
 
