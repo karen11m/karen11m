@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=FF69B4&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=FF69B4&section=footer"/>
 
 </div>
-<div align="center"> Karen Tatiana Méndez Bojacá </div>
+#<div align="center"> Karen Tatiana Méndez Bojacá </div>
 
 <div align="center">
 
