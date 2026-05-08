@@ -18,19 +18,14 @@
 
 ## 🌸 About Me
 
-```yaml
-name: Karen Méndez
-focus:
-  - Frontend Development
-  - Backend Systems
-  - QA Automation
-  - DevOps
+<div align="center">
 
-currently_learning:
-  - Cloud Infrastructure
-  - Scalable Architectures
-  - AI Integrations
-```
+<table>
+<tr>
+<td width="40%">
+
+<img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="220"/>
+
 
 ---
 
