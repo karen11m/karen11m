@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&duration=3500&pause=1200&color=FF69B4&center=true&vCenter=true&width=700&lines=Full+Stack+Developer;QA+Engineer+%F0%9F%A7%AA;DevOps+%E2%9A%A1;Ingenier%C3%ADa+de+Sistemas" />
+<img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="220"/>
 
 <br/>
 
