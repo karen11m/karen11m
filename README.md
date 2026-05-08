@@ -10,9 +10,9 @@
 
 ## 🌸 About Me
 
- Desarrolladora  
- Experiencia en desarrollo **Frontend**, **Backend**, automatización de pruebas (**QA**) y despliegues (**DevOps**).  
- Siempre aprendiendo nuevas tecnologías y construyendo proyectos que combinan diseño, rendimiento y automatización.
+Developer
+Experience in frontend and backend development, test automation (QA), and deployments (DevOps). 
+Always learning new technologies and building projects that combine design, performance, and automation.
 
 
 ---
@@ -66,11 +66,11 @@
 
 <div align="center">
 
-<a href="https://linkedin.com/in/karen11m">
+<a href="[https://linkedin.com/in/karen11m](https://www.linkedin.com/in/karen-méndez-8482783b7?utm_source=share_via&utm_content=profile&utm_medium=member_android)">
 <img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=ff69b4"/>
 </a>
 
-<a href="mailto:karenmendezkm230@gmail.com">
+<a href="mailto:karenmendez.dev@gmail.com">
 <img src="https://img.shields.io/badge/Gmail-0d1117?style=for-the-badge&logo=gmail&logoColor=ff69b4"/>
 </a>
 
