@@ -1,129 +1,106 @@
-# 💖 KAREN TATIANA MENDEZ BOJACA
+# <div align="center">✨ Karen Méndez ✨</div>
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=FF1493&center=true&vCenter=true&width=800&height=60&lines=KAREN+TATIANA+MENDEZ+BOJACA;Full+Stack+Developer+%7C+QA+Engineer+%7C+DevOps;Estudiante+de+Ingenier%C3%ADa+de+Sistemas" alt="typing" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&duration=3500&pause=1200&color=FF69B4&center=true&vCenter=true&width=700&lines=Full+Stack+Developer;QA+Engineer+%F0%9F%A7%AA;DevOps+%E2%9A%A1;Ingenier%C3%ADa+de+Sistemas" />
 
-<br />
+<br/>
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=karen11m&theme=rose_pine&hide_border=false&background=FFE5EC&ring=FF1493&fire=FF69B4&currStreakLabel=FF1493&sideNums=000000&border=FFB6C1)](https://git.io/streak-stats)
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaW9kMGJ2d3R6aDVvMXNkbzh4a3g1eGg5d3lyNmJ5eXN0aG1xY2t5YiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0HlNaQ6gWfllcjDO/giphy.gif" width="180"/>
+
+<br/>
+
+[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31xxxxxxxxxxxx&cover_image=true&theme=novatorem&show_offline=true&background_color=121212&interchange=false)](https://spotify-github-profile.kittinanx.com/api/view?uid=31xxxxxxxxxxxx&redirect=true)
 
 </div>
 
 ---
 
-## ✨ Impacto & Movimiento
+## 🌸 About Me
 
-He añadido elementos animados y visuales para llamar la atención de quien visite tu perfil:
+```yaml
+name: Karen Méndez
+focus:
+  - Frontend Development
+  - Backend Systems
+  - QA Automation
+  - DevOps
 
-- Typing animation (arriba) con texto en rosa.
-- Racha dinámica (streak) ya visible.
-- Activity graph (movimiento visual de tu actividad) y GitHub stats con fondo rosa.
-- Badges grandes "for-the-badge" para más presencia.
+currently_learning:
+  - Cloud Infrastructure
+  - Scalable Architectures
+  - AI Integrations
+```
 
 ---
 
-## 🎨 Visuales dinámicos
+## ⚡ Stack
 
 <div align="center">
 
-<!-- Activity Graph (animado en SVG) -->
-
-<img src="https://activity-graph.herokuapp.com/graph?username=karen11m&bg_color=FFE5EC&color=FF1493&line=FF69B4&point=FF1493&area=true" alt="activity graph" />
-
-<br />
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=karen11m&show_icons=true&theme=rose_pine&hide_border=false&bg_color=FFE5EC&text_color=000000&title_color=FF1493&icon_color=FF69B4&border_color=FFB6C1&border_radius=10)
+<img src="https://skillicons.dev/icons?i=react,nextjs,vue,tailwind,nodejs,python,mongodb,postgres,docker,kubernetes,git,github,vscode&perline=7" />
 
 </div>
 
 ---
 
-## 👋 Sobre Mí (resumen profesional)
-
-Desarrolladora Full Stack con experiencia en desarrollo frontend y backend, aseguramiento de calidad (QA), automatización de pruebas y pipelines DevOps. Actualmente estudiando Ingeniería de Sistemas y con práctica en entornos productivos.
-
-- Experiencia en proyectos productivos con metodologías ágiles.
-- QA: Automatización con Jest, Cypress y Selenium; diseño de planes de prueba y reporting.
-- DevOps: Docker, Kubernetes, GitHub Actions/Jenkins para CI/CD.
-- Bases de datos: diseño y optimización (PostgreSQL, MongoDB, MySQL, Firebase).
-
----
-
-## 🛠️ Stack (más impacto visual)
+## 📊 Activity
 
 <div align="center">
 
-### 🎨 FRONTEND
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=karen11m&show_icons=true&hide_border=true&theme=transparent&title_color=ff69b4&icon_color=ff69b4&text_color=c9d1d9"/>
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=karen11m&layout=compact&hide_border=true&theme=transparent&title_color=ff69b4&text_color=c9d1d9"/>
 
-### ⚙️ BACKEND
+</div>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+<br/>
 
-### 🗄️ BASES DE DATOS
+<div align="center">
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-13AA52?style=for-the-badge&logo=mongodb&logoColor=white)
-
-### 🧪 QA & TESTING
-
-![Cypress](https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white)
-![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
-
-### 🚀 DEVOPS
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=karen11m&bg_color=0d1117&color=ff69b4&line=ff1493&point=ffffff&hide_border=true&area=true"/>
 
 </div>
 
 ---
 
-## 💼 Experiencia breve
-
-- Full Stack Developer: desarrollo de aplicaciones web completas.
-- QA Engineer: diseño y ejecución de suites de pruebas automatizadas.
-- DevOps Engineer: pipelines CI/CD, despliegues y monitorización.
-- Administración de bases de datos relacionales y NoSQL.
-
----
-
-## 🚀 Proyectos destacados
-
-- Portafolio Web profesional — React, Tailwind, despliegue continuo.
-- Plataforma SaaS — Node.js, MongoDB, Docker/Kubernetes.
-- Suite de Testing — E2E con Cypress y pruebas unitarias con Jest.
-
----
-
-## 🔗 Conecta
+## 🚀 Featured Projects
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/🌐%20Portafolio-Visitar-FF1493?style=for-the-badge)](https://tu-portafolio.com)
-[![LinkedIn](https://img.shields.io/badge/🔗%20LinkedIn-Ver-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/karen11m)
-[![Email](https://img.shields.io/badge/📧%20Email-Contactar-FF69B4?style=for-the-badge)](mailto:karenmendezkm230@gmail.com)
+| Project | Description |
+|---|---|
+| 🤖 AI PDF Automation | Intelligent extraction from import documents |
+| 🌐 Portfolio Website | Modern animated portfolio |
+| 🧪 QA Testing Suite | Automated E2E & unit testing |
+| ☁️ DevOps Deployments | Docker & CI/CD environments |
 
 </div>
 
 ---
 
-## 🎁 Extras animados
+## 🌐 Connect
 
-- Agregué una animación de escritura (typing SVG) para encabezado.
-- Activity graph dinámico para mostrar movimiento en tu actividad.
-- Badges grandes para más presencia.
+<div align="center">
+
+<a href="https://linkedin.com/in/karen11m">
+<img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=ff69b4"/>
+</a>
+
+<a href="mailto:karenmendezkm230@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-0d1117?style=for-the-badge&logo=gmail&logoColor=ff69b4"/>
+</a>
+
+<a href="https://github.com/karen11m">
+<img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=ff69b4"/>
+</a>
+
+</div>
 
 ---
 
 <div align="center">
 
-**Hecho con 💖 y mucho código — 2026**
+<img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=FF69B4&section=footer"/>
 
 </div>
