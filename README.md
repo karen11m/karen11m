@@ -1,4 +1,9 @@
-# <div align="center"> Karen Tatiana Méndez Bojacá </div>
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=FF69B4&section=footer"/>
+
+</div>
+<div align="center"> Karen Tatiana Méndez Bojacá </div>
 
 <div align="center">
 
@@ -11,7 +16,9 @@
 ## 🌸 About Me
 
 Developer
+
 Experience in frontend and backend development, test automation (QA), and deployments (DevOps). 
+
 Always learning new technologies and building projects that combine design, performance, and automation.
 
 
@@ -66,7 +73,7 @@ Always learning new technologies and building projects that combine design, perf
 
 <div align="center">
 
-<a href="[https://linkedin.com/in/karen11m](https://www.linkedin.com/in/karen-méndez-8482783b7?utm_source=share_via&utm_content=profile&utm_medium=member_android)">
+<a href="[https://linkedin.com/in/karen11m](https://www.linkedin.com/in/karen-méndez-8482783b7?utm_source=share_via&utm_content=profile&utm_medium=member_android)]">
 <img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=ff69b4"/>
 </a>
 
