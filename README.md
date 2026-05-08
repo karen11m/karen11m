@@ -2,14 +2,12 @@
 
 <div align="center">
 
-╔════════════════════════════════════════════════════════╗
-║                                                        ║
-║         KAREN TATIANA MENDEZ BOJACA                   ║
-║         Full Stack Developer                          ║
-║                                                        ║
-╚════════════════════════════════════════════════════════╝
+## 💖 KAREN TATIANA MENDEZ BOJACA
+### Full Stack Developer
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=karen11m&theme=rose_pine&hide_border=false&background=FFE5EC&ring=FF1493&fire=FF69B4&currStreakLabel=FF1493&sideNums=000000&border=FFB6C1&stroke=FF69B4)](https://git.io/streak-stats)
+---
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=karen11m&theme=rose_pine&hide_border=false&background=FFE5EC&ring=FF1493&fire=FF69B4&currStreakLabel=FF1493&sideNums=000000&border=FFB6C1)](https://git.io/streak-stats)
 
 ![Developer](https://img.shields.io/badge/Developer-Full%20Stack-FF69B4?style=for-the-badge&logo=github&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Available-FFB6C1?style=for-the-badge)
